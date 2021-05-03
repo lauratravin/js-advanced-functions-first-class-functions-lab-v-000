@@ -15,3 +15,4 @@ const createFareMultiplier= function(players){
       return players*value
     }
 }
+//createFareMultiplier(4)(4)  this return 16
