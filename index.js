@@ -8,3 +8,10 @@ const returnLastTwoDrivers= function(drivers){
 }
 
 const selectingDrivers=  [ returnFirstTwoDrivers, returnLastTwoDrivers]
+
+
+const createFareMultiplier= function(players){
+    return function(value){
+      return players*value
+    }
+}
